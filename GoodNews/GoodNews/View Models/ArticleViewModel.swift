@@ -3,7 +3,7 @@
 //  GoodNews
 //
 //  Created by Dmytro Vasylenko on 29.08.2022.
-//  Copyright © 2022 Mohammad Azam. All rights reserved.
+//  
 //
 
 import Foundation

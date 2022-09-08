@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  GoodNews
 //
-//  Created by Mohammad Azam on 2/5/19.
-//  Copyright © 2019 Mohammad Azam. All rights reserved.
+//  Created by Dmytro Vasylenko on 29.08.2022.
+//
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  NewsListTableViewController.swift
 //  GoodNews
 //
-//  Created by Mohammad Azam on 2/5/19.
+//  Created by Dmytro Vasylenko on 29.08.2022.
 // 
 //
 
@@ -36,6 +36,8 @@ class NewsListTableViewController: BaseClass {
             }
         }
     }
+    
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return self.articleListVM == nil ? 0 : self.articleListVM.numberOfSections
     }
