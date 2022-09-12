@@ -85,16 +85,8 @@
                                     <outlet property="delegate" destination="A2Z-Po-d6c" id="4Cs-Kt-UTy"/>
                                 </connections>
                             </tableView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Djk-8x-PIt">
-                                <rect key="frame" x="104" y="501" width="206" height="32"/>
-                                <segments>
-                                    <segment title="Small"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Large"/>
-                                </segments>
-                            </segmentedControl>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zZk-rc-TmS">
-                                <rect key="frame" x="107" y="585" width="200" height="34"/>
+                                <rect key="frame" x="107" y="619" width="200" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="6BG-Mb-ku2"/>
                                 </constraints>
@@ -102,7 +94,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yss-v4-SkG">
-                                <rect key="frame" x="107" y="636" width="200" height="34"/>
+                                <rect key="frame" x="107" y="670" width="200" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="7rp-hf-60s"/>
                                 </constraints>
@@ -113,15 +105,13 @@
                         <viewLayoutGuide key="safeArea" id="q3p-ql-uoD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Djk-8x-PIt" firstAttribute="centerX" secondItem="rdS-l0-jPj" secondAttribute="centerX" id="6en-0u-37o"/>
                             <constraint firstItem="Fba-ji-gPe" firstAttribute="width" secondItem="rdS-l0-jPj" secondAttribute="width" id="BpF-mW-bv4"/>
                             <constraint firstItem="Fba-ji-gPe" firstAttribute="height" secondItem="rdS-l0-jPj" secondAttribute="height" multiplier="0.5" id="Ebq-ZP-VcX"/>
                             <constraint firstItem="yss-v4-SkG" firstAttribute="centerX" secondItem="rdS-l0-jPj" secondAttribute="centerX" id="Jak-ya-RSL"/>
                             <constraint firstItem="Fba-ji-gPe" firstAttribute="leading" secondItem="q3p-ql-uoD" secondAttribute="leading" id="SZd-7q-Irl"/>
-                            <constraint firstItem="zZk-rc-TmS" firstAttribute="top" secondItem="Djk-8x-PIt" secondAttribute="bottom" constant="53" id="ZCG-wc-3Fx"/>
+                            <constraint firstItem="q3p-ql-uoD" firstAttribute="bottom" secondItem="yss-v4-SkG" secondAttribute="bottom" constant="138" id="TGD-fh-gPO"/>
                             <constraint firstItem="Fba-ji-gPe" firstAttribute="top" secondItem="q3p-ql-uoD" secondAttribute="top" id="ait-Wy-bOQ"/>
                             <constraint firstItem="zZk-rc-TmS" firstAttribute="centerX" secondItem="rdS-l0-jPj" secondAttribute="centerX" id="wMK-4R-e2a"/>
-                            <constraint firstItem="Djk-8x-PIt" firstAttribute="top" secondItem="Fba-ji-gPe" secondAttribute="bottom" constant="24" id="yfj-Yz-Rdn"/>
                             <constraint firstItem="yss-v4-SkG" firstAttribute="top" secondItem="zZk-rc-TmS" secondAttribute="bottom" constant="17" id="zjn-xp-LW1"/>
                         </constraints>
                     </view>
